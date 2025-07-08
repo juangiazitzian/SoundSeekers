@@ -1,0 +1,45 @@
+# === FRONTEND ===
+/frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/pnp.js
+frontend/coverage/
+frontend/.env*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# === BACKEND ===
+/backend/target/
+!/backend/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+backend/.DS_Store
+backend/.env*
+backend/nbproject/private/
+backend/nbbuild/
+backend/dist/
+backend/nbdist/
+backend/.nb-gradle/
+backend/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === IDEs ===
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# === General ===
+.DS_Store
+*.log
+.env
